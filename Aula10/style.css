@@ -1,0 +1,55 @@
+.cap1 {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 5px;
+    /* Margem geral */
+    margin: 30px 40px;
+    /* Cima, Direita, Baixo, Esquerdo */
+    padding: 10px;
+    background-color: aqua;
+}
+
+.cap1:hover {
+    background-color: white;
+}
+
+p::first-letter {
+    font-size: 40px;
+}
+
+
+h2 {
+    border: 10px solid black;
+    border-radius: 100px;
+    margin: 50px;
+    padding: 50px;
+}
+
+h3 {
+    /* border-style: solid;
+    border-color: red;
+    border-width: 10px;
+    border-radius: 5px; */
+    
+    border-bottom: solid 5px red;
+    border-top: dotted 5px blue;
+    border-left: dashed 5px pink;
+    border-right: double 5px green;
+}
+
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: black;
+}
